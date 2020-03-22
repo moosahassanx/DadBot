@@ -17,3 +17,4 @@ D:\Visual Studio Projects\DadBot\DadBot\bin\Debug\netcoreapp3.1\DSharpPlus.Comma
 D:\Visual Studio Projects\DadBot\DadBot\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 D:\Visual Studio Projects\DadBot\DadBot\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\Visual Studio Projects\DadBot\DadBot\obj\Debug\netcoreapp3.1\DadBot.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\DadBot\DadBot\bin\Debug\netcoreapp3.1\DSharpPlus.Interactivity.dll

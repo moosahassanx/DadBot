@@ -9,7 +9,8 @@
       "DadBot/1.0.0": {
         "dependencies": {
           "DSharpPlus": "4.0.0-nightly-00670",
-          "DSharpPlus.CommandsNext": "4.0.0-nightly-00670"
+          "DSharpPlus.CommandsNext": "4.0.0-nightly-00670",
+          "DSharpPlus.Interactivity": "4.0.0-nightly-00670"
         },
         "runtime": {
           "DadBot.dll": {}
@@ -38,6 +39,17 @@
         },
         "runtime": {
           "lib/netstandard2.0/DSharpPlus.CommandsNext.dll": {
+            "assemblyVersion": "4.0.0.670",
+            "fileVersion": "4.0.0.670"
+          }
+        }
+      },
+      "DSharpPlus.Interactivity/4.0.0-nightly-00670": {
+        "dependencies": {
+          "DSharpPlus": "4.0.0-nightly-00670"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DSharpPlus.Interactivity.dll": {
             "assemblyVersion": "4.0.0.670",
             "fileVersion": "4.0.0.670"
           }
@@ -677,6 +689,13 @@
       "sha512": "sha512-gWL+8bLPsCPZpqWCo6R8Hqv8aN87GDoiJalxt/ctoYkFgZgFvvnH6bDmULHa/K3v36/eZ7TB99LuBP+ihrR2jg==",
       "path": "dsharpplus.commandsnext/4.0.0-nightly-00670",
       "hashPath": "dsharpplus.commandsnext.4.0.0-nightly-00670.nupkg.sha512"
+    },
+    "DSharpPlus.Interactivity/4.0.0-nightly-00670": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I2hs6R/mTP/2zz6P2RwvznnLvd6264ERbnLZBPq0giY4JN83FHObjGrhfoO+HDfY3aKrH/SXMboOPucCBkPy1Q==",
+      "path": "dsharpplus.interactivity/4.0.0-nightly-00670",
+      "hashPath": "dsharpplus.interactivity.4.0.0-nightly-00670.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyInjection/3.1.1": {
       "type": "package",

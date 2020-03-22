@@ -13,7 +13,7 @@ namespace DadBot
 {
     public class Bot
     {
-        public discordClient Client { get; private set; }
+        public DiscordClient Client { get; private set; }
         public CommandsNextExtension Commands { get; private set; }
 
         public async Task RunAsync() 
@@ -35,7 +35,7 @@ namespace DadBot
                 UseInternalLogHandler = true
             };
 
-            Client = new discordClient();
+            Client = new DiscordClient(config);
 
             Client.Ready += OnClientReady;
 
