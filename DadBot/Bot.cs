@@ -48,9 +48,24 @@ namespace DadBot
 
             Commands = Client.UseCommandsNext(commandsConfig);
 
+            Client.MessageCreated += Client_MessageCreated;
+
             await Client.ConnectAsync();
 
             await Task.Delay(-1);
+        }
+
+        private async Task Client_MessageCreated(MessageCreateEventArgs e)
+        {
+            if (e.Message.Content.StartsWith("im", StringComparison.InvariantCultureIgnoreCase))
+            {
+                var message = e.Message.Content.Substring(2, e.Message.Content.Length - 2);
+                await e.Channel.SendMessageAsync($"Hi,{message}. I'm Dad!");
+            } else if (e.Message.Content.StartsWith("i'm", StringComparison.InvariantCultureIgnoreCase)) 
+            {
+                var message = e.Message.Content.Substring(3, e.Message.Content.Length - 3);
+                await e.Channel.SendMessageAsync($"Hi,{message}. I'm Dad!");
+            }
         }
 
         private Task OnClientReady(ReadyEventArgs e) 
